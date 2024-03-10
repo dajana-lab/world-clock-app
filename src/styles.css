@@ -1,5 +1,5 @@
 body {
-  background-color: #d25959;
+  background: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
   font-family: "Merriweather", serif;
 }
 
@@ -7,11 +7,13 @@ h1 {
   text-align: center;
   font-size: 40px;
   font-weight: 600;
+  color: #77628c;
 }
 
 h2 {
   margin: 0 0 5px;
   font-size: 30px;
+  color: #77628c;
 }
 select {
   display: block;
@@ -19,18 +21,21 @@ select {
   width: 100%;
   border-radius: 4px;
   padding: 10px;
+
+  color: #71a0a5;
 }
 footer {
   text-align: center;
   font-size: 15px;
   color: rgba(0, 0, 0, 0.6);
+  color: #77628c;
 }
 .container {
   max-width: 600px;
   margin: 60px auto;
   background: #fff;
   padding: 30px;
-  box-shadow: rgba(100, 100, 111, 0.2) 10px 7px 29px 10px;
+  box-shadow: rgba(53, 53, 62, 0.2) 10px 7px 29px 10px;
   border-radius: 10px;
 }
 .city {
@@ -47,13 +52,16 @@ footer {
   opacity: 0.7;
   font-size: 15px;
   line-height: 2;
+  color: #71a0a5;
 }
 .time {
   font-size: 35px;
   font-weight: bold;
+  color: #71a0a5;
 }
 .time small {
   font-size: 18px;
   line-height: 35px;
   vertical-align: middle;
+  color: #71a0a5;
 }
