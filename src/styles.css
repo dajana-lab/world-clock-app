@@ -1,1 +1,60 @@
+body {
+  background-color: #f5e1da;
+  font-family: "Merriweather", serif;
+}
 
+h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+h2 {
+  margin: 0 0 5px;
+  font-size: 30px;
+}
+select {
+  display: block;
+  font-size: 16px;
+  width: 100%;
+  border-radius: 4px;
+  padding: 10px;
+}
+footer {
+  text-align: center;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.6);
+  margin: 10px;
+}
+.container {
+  max-width: 600px;
+  margin: 60px auto;
+  background: #fff;
+  padding: 30px;
+  box-shadow: rgba(100, 100, 111, 0.2) 10px 7px 29px 10px;
+  border-radius: 10px;
+}
+.city {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  padding: 20px 0;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+}
+.city:last-child {
+  border: none;
+}
+.date {
+  opacity: 0.7;
+  font-size: 15px;
+  line-height: 2;
+}
+.time {
+  font-size: 35px;
+  font-weight: bold;
+}
+.time small {
+  font-size: 18px;
+  line-height: 35px;
+  vertical-align: middle;
+}
